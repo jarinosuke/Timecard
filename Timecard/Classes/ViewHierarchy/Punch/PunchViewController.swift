@@ -16,4 +16,26 @@ class PunchViewController: ViewController {
         let punchViewController: AnyObject = storyboard.instantiateInitialViewController()
         return punchViewController
     }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        let settingButtonItem: UIBarButtonItem = UIBarButtonItem(title: "Setting", style: .Plain, target: self, action: "settingButtonTapped:")
+        self.navigationItem.leftBarButtonItem = settingButtonItem
+        
+        let attendanceButtonItem: UIBarButtonItem = UIBarButtonItem(title: "Attendance", style: .Plain, target: self, action: "attendanceButtonTapped:")
+        self.navigationItem.rightBarButtonItem = attendanceButtonItem
+    }
+    
+    //MARK: Button Action
+    
+    func settingButtonTapped(sender: AnyObject) {
+        //TODO:
+        println("settingButtonTapped")
+    }
+    
+    func attendanceButtonTapped(sender: AnyObject) {
+        //TODO:
+        println("attendanceButtonTapped")
+    }
 }
