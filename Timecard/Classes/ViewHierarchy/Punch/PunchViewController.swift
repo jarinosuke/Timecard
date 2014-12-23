@@ -35,7 +35,7 @@ class PunchViewController: ViewController {
     }
     
     func attendanceButtonTapped(sender: AnyObject) {
-        //TODO:
-        println("attendanceButtonTapped")
+        let attendancesViewController = AttendancesViewController.attendancesViewController() as AttendancesViewController
+        self.navigationController?.pushViewController(attendancesViewController, animated: true)
     }
 }
