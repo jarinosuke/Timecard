@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		77FF338D1A492BEB003B8787 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FF338C1A492BEB003B8787 /* AppDelegate.swift */; };
-		77FF338F1A492BEB003B8787 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FF338E1A492BEB003B8787 /* ViewController.swift */; };
-		77FF33921A492BEB003B8787 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77FF33901A492BEB003B8787 /* Main.storyboard */; };
 		77FF33941A492BEB003B8787 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77FF33931A492BEB003B8787 /* Images.xcassets */; };
 		77FF33971A492BEB003B8787 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77FF33951A492BEB003B8787 /* LaunchScreen.xib */; };
 		77FF33A31A492BEB003B8787 /* TimecardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FF33A21A492BEB003B8787 /* TimecardTests.swift */; };
@@ -29,8 +27,6 @@
 		77FF33871A492BEB003B8787 /* Timecard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timecard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77FF338B1A492BEB003B8787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77FF338C1A492BEB003B8787 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		77FF338E1A492BEB003B8787 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		77FF33911A492BEB003B8787 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		77FF33931A492BEB003B8787 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		77FF33961A492BEB003B8787 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		77FF339C1A492BEB003B8787 /* TimecardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimecardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				77FF338C1A492BEB003B8787 /* AppDelegate.swift */,
-				77FF338E1A492BEB003B8787 /* ViewController.swift */,
-				77FF33901A492BEB003B8787 /* Main.storyboard */,
 				77FF33931A492BEB003B8787 /* Images.xcassets */,
 				77FF33951A492BEB003B8787 /* LaunchScreen.xib */,
 				77FF338A1A492BEB003B8787 /* Supporting Files */,
@@ -192,7 +186,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77FF33921A492BEB003B8787 /* Main.storyboard in Resources */,
 				77FF33971A492BEB003B8787 /* LaunchScreen.xib in Resources */,
 				77FF33941A492BEB003B8787 /* Images.xcassets in Resources */,
 			);
@@ -212,7 +205,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77FF338F1A492BEB003B8787 /* ViewController.swift in Sources */,
 				77FF338D1A492BEB003B8787 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -236,14 +228,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		77FF33901A492BEB003B8787 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				77FF33911A492BEB003B8787 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		77FF33951A492BEB003B8787 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
