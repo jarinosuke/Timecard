@@ -17,6 +17,8 @@
 		77FF33C61A493B33003B8787 /* PunchViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77FF33C51A493B33003B8787 /* PunchViewController.storyboard */; };
 		77FF33C81A4994CA003B8787 /* AttendancesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FF33C71A4994CA003B8787 /* AttendancesViewController.swift */; };
 		77FF33CA1A4994DC003B8787 /* AttendancesViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77FF33C91A4994DC003B8787 /* AttendancesViewController.storyboard */; };
+		77FF33CC1A4995C9003B8787 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FF33CB1A4995C9003B8787 /* SettingsViewController.swift */; };
+		77FF33CE1A4995DB003B8787 /* SettingsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77FF33CD1A4995DB003B8787 /* SettingsViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,8 @@
 		77FF33C51A493B33003B8787 /* PunchViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PunchViewController.storyboard; sourceTree = "<group>"; };
 		77FF33C71A4994CA003B8787 /* AttendancesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttendancesViewController.swift; sourceTree = "<group>"; };
 		77FF33C91A4994DC003B8787 /* AttendancesViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AttendancesViewController.storyboard; sourceTree = "<group>"; };
+		77FF33CB1A4995C9003B8787 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		77FF33CD1A4995DB003B8787 /* SettingsViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SettingsViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +184,8 @@
 		77FF33BD1A493A99003B8787 /* Setting */ = {
 			isa = PBXGroup;
 			children = (
+				77FF33CB1A4995C9003B8787 /* SettingsViewController.swift */,
+				77FF33CD1A4995DB003B8787 /* SettingsViewController.storyboard */,
 			);
 			path = Setting;
 			sourceTree = "<group>";
@@ -294,6 +300,7 @@
 				77FF33BA1A493690003B8787 /* LaunchScreen.xib in Resources */,
 				77FF33B91A493690003B8787 /* Images.xcassets in Resources */,
 				77FF33C61A493B33003B8787 /* PunchViewController.storyboard in Resources */,
+				77FF33CE1A4995DB003B8787 /* SettingsViewController.storyboard in Resources */,
 				77FF33BB1A493690003B8787 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,6 +322,7 @@
 				77FF33C41A493B1D003B8787 /* PunchViewController.swift in Sources */,
 				77FF33C21A493ADE003B8787 /* ViewController.swift in Sources */,
 				77FF33BC1A493690003B8787 /* AppDelegate.swift in Sources */,
+				77FF33CC1A4995C9003B8787 /* SettingsViewController.swift in Sources */,
 				77FF33C81A4994CA003B8787 /* AttendancesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

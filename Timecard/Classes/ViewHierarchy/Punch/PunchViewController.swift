@@ -30,8 +30,8 @@ class PunchViewController: ViewController {
     //MARK: Button Action
     
     func settingButtonTapped(sender: AnyObject) {
-        //TODO:
-        println("settingButtonTapped")
+        let settingsViewController = SettingsViewController.settingssViewController() as SettingsViewController
+        self.navigationController?.pushViewController(settingsViewController, animated: true)
     }
     
     func attendanceButtonTapped(sender: AnyObject) {
