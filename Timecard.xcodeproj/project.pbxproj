@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		77FF338D1A492BEB003B8787 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FF338C1A492BEB003B8787 /* AppDelegate.swift */; };
-		77FF33941A492BEB003B8787 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77FF33931A492BEB003B8787 /* Images.xcassets */; };
-		77FF33971A492BEB003B8787 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77FF33951A492BEB003B8787 /* LaunchScreen.xib */; };
 		77FF33A31A492BEB003B8787 /* TimecardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FF33A21A492BEB003B8787 /* TimecardTests.swift */; };
+		77FF33B91A493690003B8787 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77FF33AE1A493690003B8787 /* Images.xcassets */; };
+		77FF33BA1A493690003B8787 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77FF33AF1A493690003B8787 /* LaunchScreen.xib */; };
+		77FF33BB1A493690003B8787 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 77FF33B11A493690003B8787 /* Info.plist */; };
+		77FF33BC1A493690003B8787 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FF33B61A493690003B8787 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,13 +26,13 @@
 
 /* Begin PBXFileReference section */
 		77FF33871A492BEB003B8787 /* Timecard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timecard.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		77FF338B1A492BEB003B8787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		77FF338C1A492BEB003B8787 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		77FF33931A492BEB003B8787 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		77FF33961A492BEB003B8787 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		77FF339C1A492BEB003B8787 /* TimecardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimecardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		77FF33A11A492BEB003B8787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77FF33A21A492BEB003B8787 /* TimecardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimecardTests.swift; sourceTree = "<group>"; };
+		77FF33AE1A493690003B8787 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		77FF33AF1A493690003B8787 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		77FF33B11A493690003B8787 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77FF33B61A493690003B8787 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,20 +74,10 @@
 		77FF33891A492BEB003B8787 /* Timecard */ = {
 			isa = PBXGroup;
 			children = (
-				77FF338C1A492BEB003B8787 /* AppDelegate.swift */,
-				77FF33931A492BEB003B8787 /* Images.xcassets */,
-				77FF33951A492BEB003B8787 /* LaunchScreen.xib */,
-				77FF338A1A492BEB003B8787 /* Supporting Files */,
+				77FF33AC1A493690003B8787 /* Resources */,
+				77FF33B31A493690003B8787 /* Classes */,
 			);
 			path = Timecard;
-			sourceTree = "<group>";
-		};
-		77FF338A1A492BEB003B8787 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				77FF338B1A492BEB003B8787 /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		77FF339F1A492BEB003B8787 /* TimecardTests */ = {
@@ -104,6 +95,72 @@
 				77FF33A11A492BEB003B8787 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		77FF33AC1A493690003B8787 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				77FF33AF1A493690003B8787 /* LaunchScreen.xib */,
+				77FF33AD1A493690003B8787 /* Images */,
+				77FF33B01A493690003B8787 /* Supporting Files */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		77FF33AD1A493690003B8787 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				77FF33AE1A493690003B8787 /* Images.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		77FF33B01A493690003B8787 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				77FF33B11A493690003B8787 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		77FF33B31A493690003B8787 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				77FF33B41A493690003B8787 /* Controller */,
+				77FF33B51A493690003B8787 /* Global */,
+				77FF33B71A493690003B8787 /* Model */,
+				77FF33B81A493690003B8787 /* ViewHierarchy */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		77FF33B41A493690003B8787 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		77FF33B51A493690003B8787 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				77FF33B61A493690003B8787 /* AppDelegate.swift */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		77FF33B71A493690003B8787 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		77FF33B81A493690003B8787 /* ViewHierarchy */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewHierarchy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,8 +243,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77FF33971A492BEB003B8787 /* LaunchScreen.xib in Resources */,
-				77FF33941A492BEB003B8787 /* Images.xcassets in Resources */,
+				77FF33BA1A493690003B8787 /* LaunchScreen.xib in Resources */,
+				77FF33B91A493690003B8787 /* Images.xcassets in Resources */,
+				77FF33BB1A493690003B8787 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,7 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77FF338D1A492BEB003B8787 /* AppDelegate.swift in Sources */,
+				77FF33BC1A493690003B8787 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,17 +284,6 @@
 			targetProxy = 77FF339D1A492BEB003B8787 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		77FF33951A492BEB003B8787 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				77FF33961A492BEB003B8787 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		77FF33A41A492BEB003B8787 /* Debug */ = {
@@ -273,7 +320,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				INFOPLIST_FILE = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -310,7 +358,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				INFOPLIST_FILE = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -322,7 +371,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Timecard/Info.plist;
+				INFOPLIST_FILE = "Timecard/Resources/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -333,7 +382,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Timecard/Info.plist;
+				INFOPLIST_FILE = "Timecard/Resources/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
